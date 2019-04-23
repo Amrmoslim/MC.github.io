@@ -8,14 +8,15 @@
 #
 
 library(shiny)
+library(shinythemes)
 
 # Define UI for application that draws a histogram
 shinyUI(
   
-  fluidPage(
-  
+  fluidPage(shinythemes::themeSelector(),
   # Application title
   titlePanel("Fault Seal Analysis  Webapp"),
+
   
   # Sidebar with a slider input for number of bins 
   sidebarLayout(
