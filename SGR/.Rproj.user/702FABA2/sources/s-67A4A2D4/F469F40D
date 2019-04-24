@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556103509859.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3395071904",
+    "id" : "F469F40D",
+    "lastKnownWriteTime" : 1556103554,
+    "last_content_update" : 1556103554013,
+    "path" : "~/GitHub/MC.github.io/SGR/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+        "cursorPosition" : "9,13",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
