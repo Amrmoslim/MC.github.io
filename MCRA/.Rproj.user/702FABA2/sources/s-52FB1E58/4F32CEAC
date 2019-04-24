@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556105931948.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1984107590",
+    "id" : "4F32CEAC",
+    "lastKnownWriteTime" : 1556110881,
+    "last_content_update" : 1556110881083,
+    "path" : "~/GitHub/MC.github.io/MCRA/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+        "cursorPosition" : "105,4",
+        "scrollLine" : "82"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
