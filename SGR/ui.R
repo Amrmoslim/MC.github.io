@@ -106,8 +106,10 @@ shinyUI(
            column(6,plotOutput("SGRpanel1") )
            ,column(6,plotOutput("SSFpanel2") )
            ,fluidRow(
-             dataTableOutput("sgrTable")),
-           fluidRow(dataTableOutput("ssfTable")),
+             dataTableOutput("sgrTable")
+             ),
+           fluidRow(dataTableOutput("ssfTable")
+                    ),
            
            verbatimTextOutput("result"),tags$head(tags$style("#result{color: blue;font-size: 35px;font-style: italic;}")))
  
