@@ -32,7 +32,8 @@ ui <- fluidPage(
       # Show a plot of the generated distribution
       mainPanel(
          plotOutput("distPlot"),
-         tableOutput("text")
+         tableOutput("text"),
+         plotOutput("cumPlot")
       )
    )
 )
@@ -61,6 +62,7 @@ server <- function(input, output, session) {
     # names(C2)[2] <- "Production"
     # C2
     results
+    #cum=results*365
   })
   
    output$distPlot <- renderPlot({
@@ -85,6 +87,20 @@ server <- function(input, output, session) {
             names(C2)[2] <- "Production"
             C2
             })
+   
+   # output$cumPlot <- renderPlot({
+   #   A1 <- input$Pi
+   #   B2 <- list(seq(1:input$Ti-1))
+   #   C1 <- list(t(results()))
+   #   C2 <- list (A1, 1)
+   #   C2 <- data.frame(B2,C1*365)
+   #   names(C2)[] <- "Time"
+   #   names(C2)[2] <- "CumProduction"
+   #   
+   #   plot(Cum(), type = "b")
+   #   #results[2,] <- seq(1:input$Ti)
+   #   #ggplot(results, aes(Ti, A1))+geom_line()
+   # })
 }
 
 # Run the application 
