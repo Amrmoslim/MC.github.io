@@ -96,7 +96,7 @@ server <- function(input, output, session) {
    #   C2 <- data.frame(B2,C1*365)
    #   names(C2)[] <- "Time"
    #   names(C2)[2] <- "CumProduction"
-   #   
+   # 
    #   plot(Cum(), type = "b")
    #   #results[2,] <- seq(1:input$Ti)
    #   #ggplot(results, aes(Ti, A1))+geom_line()
